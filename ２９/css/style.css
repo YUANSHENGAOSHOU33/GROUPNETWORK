@@ -1,0 +1,213 @@
+/* CSS Document */
+a {
+	font-size: 14px;
+	color: #333;
+	text-decoration:none
+}
+
+a:hover {
+	color: #33CCFF
+}
+ul,li{ list-style:none; margin:0; padding:0}
+body {
+	margin: 0 auto;
+	padding: 0;
+	
+	background: url(../images/bg.jpg) no-repeat;
+	width: 1000px;
+	background-size: cover;
+	color: #fff;
+	line-height: 30px
+}
+
+.clearfix:after {
+	clear: both;
+	content: '';
+	display: block;
+}
+
+.head {
+	background: #3399CC;
+	height: 104px;
+	overflow: hidden
+}
+
+
+
+h1,
+h2,
+h3 {
+	margin: 0;
+	padding: 0
+}
+
+.head a {
+	font-size: 18px;
+	color: #fff;
+	margin: 35px 20px;
+	display: inline-block
+}
+.head a:hover{ color:#FFFF00}
+
+.fl {
+	float: left
+}
+
+.fr {
+	float: right
+}
+
+.head .fl {
+	background: #fff;
+}
+
+.head .fl img {
+	width: 135px;
+	padding-top: 10px;
+}
+
+.bg000 {
+	background:#3399CC
+}
+
+.bar {
+	background:#3399CC;
+	color: #fff;
+	padding: 20px
+}
+
+.w40 {
+	width: 40%;
+}
+
+.w60 {
+	width: 60%
+}
+
+#jSearchHeroDiv li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	width: 236px;
+	margin: 5px;
+}
+
+#jSearchHeroDiv img {
+	width: 100%;
+	height: 140px
+}
+
+.div2 .fr div {
+	margin: 5px 5px;
+	height: 332px
+}
+.div2 li{ margin-left:20px}
+.div2 li a{ color:#FFFFFF}
+.div2 {
+	float: left;
+	margin-top: 20px;
+	width: 480px;
+}
+#latest_guide_list li{ border-bottom:#fff solid 1px; padding:10px}
+#latest_guide_list li a{ color:#fff;}
+.div4 {
+	float: right;
+	margin-top: 20px;
+	width: 500px
+}
+
+.footer {
+	text-align: center;
+	padding: 30px 0;
+	
+	color: #fff
+}
+
+.con {
+	padding: 20px
+}
+
+
+.title {
+	color: #fff;
+	text-align: center;
+	font-size:24px;
+	padding: 20px 0;
+
+}
+
+.div1 img {
+	float: left
+}
+
+.div7 {
+	margin-top: 20px
+}
+
+form {
+	margin: 0;
+	padding: 35px 0 0 50px;
+	width: 488px;
+}
+
+form label {
+	display: block;
+	margin: 0 0 20px;
+	overflow: hidden;
+	padding: 0;
+}
+
+form label span {
+	color: #7d7c7c;
+	display: block;
+	font-size: 13px;
+	float: left;
+	height: 31px;
+	margin: 0;
+	padding: 5px 14px 0 0;
+	text-align: right;
+	text-transform: uppercase;
+	width: 74px;
+}
+
+form label input {
+	border: 1px solid #d6d6d6;
+	background: #fff;
+	color: #7d7c7c;
+	display: block;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 34px;
+	line-height: 34px;
+	margin: 0;
+	padding: 0 5px;
+	width: 388px;
+}
+
+form label textarea {
+	border: 1px solid #d6d6d6;
+	background: #fff;
+	color: #7d7c7c;
+	display: block;
+	float: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	height: 205px;
+	margin: 0;
+	overflow: auto;
+	padding: 5px;
+	width: 388px;
+}
+
+form #submit2 {
+	border: 0;
+	background: url(../images/button-submit.png) no-repeat top left;
+	display: block;
+	height: 37px;
+	margin: 0 0 0 88px;
+	padding: 0;
+	width: 101px;
+}
